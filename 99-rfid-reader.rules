@@ -1,0 +1,2 @@
+# 1a86:2366 USB RFID reader - allow non-root access to hidraw (for rfid_format.py)
+KERNEL=="hidraw*", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="2366", MODE="0660", GROUP="plugdev", TAG+="uaccess"

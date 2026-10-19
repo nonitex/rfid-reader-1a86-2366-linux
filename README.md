@@ -1,5 +1,7 @@
 # USB RFID reader 1a86:2366 – output format tool for Linux
 
+![Black flat USB RFID reader (5YOA) with Mini-USB cable](docs/reader.png)
+
 Command-line replacement for the Windows-only vendor tool
 `只读改格式软件EN-Card_Reader.exe` ("USB Multi-function Card Reader Output Format
 Setting Tool") of the cheap black, flat USB 125 kHz / 13.56 MHz RFID readers that

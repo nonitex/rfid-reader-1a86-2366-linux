@@ -16,6 +16,21 @@ all 5 bytes of an EM4100 ID) on Linux. Python 3 is the only requirement, it uses
 only the standard library. The setting is stored in the reader, so it works on any
 computer afterwards.
 
+## Hardware
+
+What the reader looks like / how it is sold (from the product listing):
+
+| | |
+|---|---|
+| Brand on listing | 5YOA (悟优) |
+| Housing | black, flat, rectangular plastic box with rounded corners |
+| Top print | "Windows", "FC" logo, card-and-hand symbol with RF waves, "USB Reader" |
+| Indicator | one LED on the right side |
+| Cable | USB-A to Mini-USB, black |
+| Variants | ID reader 125 kHz (EM4100) and IC reader 13.56 MHz (Mifare), sold also as bundles with 3 key fobs |
+| USB ID | `1a86:2366` QinHeng Electronics, HID name "Miao-Xiao-Zhi IC ID card reader" |
+| Mode | USB HID keyboard emulation, driverless |
+
 ## Usage
 
 ```sh
@@ -83,3 +98,8 @@ eltárolja, így utána bármelyik gépen így működik.
 
 Magyar billentyűzetkiosztásnál a `0` helyett `ö` jelenik meg. Az olvasóban erre
 nincs beállítás, a fogadó alkalmazásban kell az `ö`-t `0`-ra cserélni.
+
+Hardver: 5YOA (悟优) márkanéven árult fekete, lapos USB-olvasó, a tetején
+„Windows”, „FC” és „USB Reader” felirat, egy LED, USB-A – Mini-USB kábel.
+125 kHz-es (ID/EM4100) és 13,56 MHz-es (IC/Mifare) változatban, 3 kulcstartós
+tag-gel is kapható.
